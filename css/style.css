@@ -1,0 +1,10 @@
+.main{
+		width: 1000px;
+		margin: auto 200;
+		background: solid black;
+	}
+	.header{
+		width: 900px;
+		height: 200px;
+		background: green;
+	}

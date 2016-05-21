@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html>
+	<head>
+	<style>
+	.main{
+		width: 900px;
+		margin:60px auto;
+		background: solid black;
+	}
+	.header{
+		width: 900px;
+		height: 400px;
+	}
+	.header img{
+		height: 400px;
+		margin-left: 150px;
+	}
+	.menu{
+		height: 50px;
+		background-color: green;
+		text-align: center;
+	}
+	.menu p{
+		font-size: 40px;
+		font-family: verdana;
+	}
+	.text1{
+		border:2px solid black;
+		height: 50px;
+		margin-top: 5px;
+		width: 100%;
+	}
+	.btn{
+	    border:1px solid black;
+		height: 50px;
+		margin-top: 5px;	
+	}
+
+	.block2{
+		border:2px solid black;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.buttom2{
+	    border:1px solid black;
+		height: 50px;
+		margin-top: 5px;	
+	}
+    .footer div{
+    	border:1px solid black;
+		height: 40px;
+		width: 210px;
+		margin-top: 5px;
+		margin: 5px;
+       float:left;
+    }
+    .footer div{
+     background-color: red;
+
+    }
+
+    .footer div p{
+    	font-family: verdana;
+    	text-align: center;
+    }
+
+	</style>
+	</head>
+	<body>
+		<div class="main">
+		<div class="header"><img src="image/acer1A.jpg"></div>
+		<div class="menu"><p id="text1"></p></div>
+		<div class="block1">
+		
+		</div>
+		<div class="buttom1">
+		<input class="text1" placeholder="burda textim olacaq">
+
+
+        <button class="btn" onclick="myFunction()">Click me</button>
+
+		</div>
+		<div class="block2">
+			
+		</div>
+		<div class="buttom2">
+			
+		</div>
+		<div class="footer">
+			<div class="btm"><p>Effect1</p></div>
+			<div class="btm"><p>Effect2</p></div>
+			<div class="btm"><p>Effect3</p></div>
+			<div class="btm"><p>Effect4</p></div>
+		</div>
+			</div>
+
+
+			<script>
+            function myFunction() {
+    var a=document.getElementByClassName("btn")[0].value
+    document.getElementByClassName("btn")[0].innerHTML = a;
+}
+</script>
+	</body>
+</html>
